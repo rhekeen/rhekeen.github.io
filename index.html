@@ -120,9 +120,9 @@
             • makijaż osób z otoczenia Panny młodej 80-100 zł<br />
             • makijaż korekcyjny Pana młodego 30 zł<br />
             • makijaż do sesji ślubnej 150 zł<br /><br />             
-            • makijaż wieczorowy 150 zł<br />
+            • makijaż wieczorowy 100 zł<br />
             • makijaż studniówkowy 100 zł<br />
-            • makijaż sylwestrowy od 150 zł<br />
+            • makijaż sylwestrowy od 100 zł<br />
             • makijaż dzienny/biznesowy 80 zł<br /><br />
             • zagęszczanie kępkami rzęs – gratis do każdego makijażu<br /><br />
              
@@ -531,6 +531,11 @@
 <!-- Contact Form -->
     <script type="text/javascript">
         $(document).ready(function () {
+            $('#fbsection2').click(function()
+            {
+                ga('send', 'event', "main", "click", "dummy");
+                console.lof('ga');
+            });
             $(function () {
                 "use strict";
                 $('#contact_form').submit(function (e) {
